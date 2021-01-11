@@ -1,0 +1,71 @@
+aleatoriedade
+algoritmo sobre pyup
+alterar template admin
+alterar template admin layout
+badges e markdown
+baixar templates
+bdd + heroku
+chave porcentagem
+campo de imagem
+campos de relacionamento
+comandos manage
+comandos pip
+configurar create view
+configurar delete view
+configurar gitignore udemy
+configurar gunicorn
+configurar list view
+configurar postgresql
+configurar servidor de email
+configurar template view
+configurar update view
+configurar whitenoise
+copiar static
+curso pytools
+dependencias comuns
+diferenca entre filter e get
+django imports
+fazer um request
+formulario modelo
+formulario no terminal
+formulario no terminal e no template
+funcoes js
+gerar caracteres
+get context data
+git ubuntu
+git windows
+indefinida
+instalar flake8
+instalar gettext linux
+instalar gettext mac
+instalar gettext windows
+mesclar dependencias
+metodo objects
+modelo base
+modelo mommy
+objeto rota singular
+parametro choices
+parametro help text
+parametro widget
+projeto estrangeiro
+pyup tutorial
+reduzir template com modelo e loop for
+relacionamento 1 para 1
+repetir string
+resolver
+rota de redirecionamento
+runtime python
+sintaxe de teste
+strings tracejadas
+sobre git
+template 404
+template bootstrap
+template bootstrap django
+template criar conta
+template entrar conta sair conta
+template menu
+template modal
+traduzir
+tutorial queryset
+tutorial shell
+tutorial teste
