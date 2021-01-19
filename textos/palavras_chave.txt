@@ -44,6 +44,7 @@ metodo objects
 modelo base
 modelo mommy
 objeto rota singular
+padrao inicial
 parametro choices
 parametro help text
 parametro widget
