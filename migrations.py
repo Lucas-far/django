@@ -2,8 +2,8 @@
 
 """
 Módulo: migrations.py
-
 Objetivo: deletar migrações de forma segura, evitando gerar bugs no projeto, caso haja remoção manual
+Palavra chave: corrigir migrations
 """
 
 # Comandos
