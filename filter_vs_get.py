@@ -112,3 +112,31 @@ def diferente5():
         'slug': 'pessoa1', 'avatar': <StdImageFieldFile: database_interview/IMG-20201211-WA0002_1.jpg>
     }
     """
+
+"filter"  # forma mais abrangente de usar filter
+def diferente6():
+    """
+    1 - python manage.py shell
+    2 - from pa.models import *
+    3 - var = Client.objects.filter(cep=64006050)
+    4 - var.values()
+    4 - <QuerySet [{'id': 1, 'client_code_id': 3, 'full_name': 'Lauro Araújo', 'neighborhood': 'Flores', 'street': 'Pedreiras', 'cep': 64006050}]>
+    5 - var.values()[0]
+    5 - {'id': 1, 'client_code_id': 3, 'full_name': 'Lauro Araújo', 'neighborhood': 'Flores', 'street': 'Pedreiras', 'cep': 64006050}
+    6 - var.values()[0]['id']
+    6 - 1
+    7 - var.values()[0]['client_code_id']
+    7 - 3
+    8 - var.values()[0].items()
+    8 - dict_items([('id', 1), ('client_code_id', 3), ('full_name', 'Lauro Araújo'), ('neighborhood', 'Flores'), ('street', 'Pedreiras'), ('cep', 64006050)])
+    9 -
+        for x in var.values()[0].items():
+            print(x)
+    9 -
+        ('id', 1)
+        ('client_code_id', 3)
+        ('full_name', 'Lauro Araújo')
+        ('neighborhood', 'Flores')
+        ('street', 'Pedreiras')
+        ('cep', 64006050)
+    """
