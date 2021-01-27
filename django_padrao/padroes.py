@@ -2,10 +2,7 @@
 
 """
 Módulo: padroes.py
-
-Objetivo:
-         inserir as configurações iniciais para um projeto Django
-
+Objetivo: inserir as configurações iniciais para um projeto Django
 Palavra chave: padrao inicial
 """
 

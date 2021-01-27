@@ -2,14 +2,8 @@
 
 """
 Módulo: choices.py
-
-Objetivo:
-         criar campos de escolha em modelos
-
-Exemplo:
-        django/email_backend.py
-        /home/lucas/PycharmProjects/email_backend
-
+Objetivo: criar campos de escolha em modelos
+Exemplo: django/email_backend.py     ou     /home/lucas/PycharmProjects/email_backend
 Palavra chave: parametro choices
 """
 

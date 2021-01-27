@@ -1,12 +1,8 @@
 
 
 """
-Módulo: gettext_linux.py
-
-Objetivo:
-         instalar bibliotecas diversas; dentre estas, gettext
-
-Palavra chave: instalar gettext linux
+Módulo: instalar_home_brew_linux.py
+Objetivo: instalar dependências diversas para Linux
 """
 
 def fonte():
@@ -16,36 +12,31 @@ def fonte():
     Aula:   # 73. Instalando e configurando o gettext - Linux
     """
 
-# Site do Homebrew e como instalar no Linux
-def browser():
-    """ https://brew.sh/ """
+"OBS"  # Site do Homebrew e guia de instalação - https://brew.sh/
 
-def terminal():
+# Instalação
+def parte1():
     """
-    1. /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
-    Apertar ENTER
-
-    ADD to PATH:
-    2. echo 'eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)' >> /home/lucas/.profile
-    3. eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)
-
-    4. brew
-    5. brew install gettext
-    6. brew link gettext --force
+    1 - /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+    2 - echo 'eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)' >> /home/lucas/.profile
+    3 - eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)
+    4 - brew                                                                        (verificar se o brew foi instalado)
+    5 - brew install gettext                                                                (usado no contexto da aula)
+    6 - brew link gettext --force                                                           (usado no contexto na aula)
     """
 
 # Ferramenta não origatória (tradutor), mas pode ser importante, dependo do contexto de trabalho
-def browser2():
+def parte2():
     """
-    https://poedit.net/
-    sudo snap install poedit
+    1 - https://poedit.net/
+    2 - sudo snap install poedit
     """
 
-def outros_comandos_relacionados():
+# Comandos relacionados ao Brew
+def parte3():
     """
-    brew install wget
-    brew install gcc
-    sudo apt-get install build-essential (importante)
-    sudo apt-get update -y
-    sudo apt-get install -y gettext
+    1 - brew install wget gcc
+    2 - brew install gcc
+    3 - sudo apt-get install -y build-essential gettext (importante, não lembro a razão)
+    4 - sudo apt-get update -y
     """
