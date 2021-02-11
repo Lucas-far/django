@@ -2,10 +2,7 @@
 
 """
 Módulo: testes.py
-
-Objetivo:
-         exemplificar uma maneira de teste comum para projetos Django
-
+Objetivo: exemplificar uma maneira de teste comum para projetos Django
 Palavra chave: tutorial teste
 """
 
@@ -17,8 +14,13 @@ def fonte():
     Minuto # 08:27
     """
 
-# Exemplo de um teste comum, que não envolve módulos Django
-"pythton manage.py test"  # comando para executar testes comuns
+"-------------------------------------------- COMANDO PARA EXECUTAR TESTES --------------------------------------------"
+
+# pythton manage.py test
+
+"------------------------------------------------ EXEMPLO: TESTE COMUM ------------------------------------------------"
+
+
 def teste_regular():
     """
     from django.test import TestCase
